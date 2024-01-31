@@ -1,4 +1,4 @@
-# PrimalGameEngine
+# Illusion Engine - Primal Engine Bare Framework
 A Game Engine by Mr.Asterisk Following the Primal Framework to later Incorperate a Froxel Based Overhaul Mode and New UI to resemble that of Dreams , Game builder garage , uchronia project bge , or Hammer editor
 
 At the moment we have the following features:
