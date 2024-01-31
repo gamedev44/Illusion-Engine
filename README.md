@@ -67,7 +67,7 @@ Empowering creators to turn dreams into reality!
 
 **Website:** [Visit Website](https://pgd-developments.w3spaces.com/)
 
-**GitHub:** [GitHub Repository](https://github.com/gamedev44/IE)
+**GitHub:** [GitHub Repository](https://github.com/gamedev44/Illusion-Engine/blob/main/README.md)
 
 **Discord:** [Join our Discord](https://discord.gg/AxG76TVUJa)
 
