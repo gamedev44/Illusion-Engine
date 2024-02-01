@@ -78,7 +78,7 @@
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>$(SolutionDir)Engine;$(SolutionDir)Engine\Common;C:\Program Files\Autodesk\FBX\FBX SDK\2020.2\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\herre\OneDrive\Desktop\Illusion\Extras\FBX_IMPORT_EXPORT\2020.3.4\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -99,7 +99,7 @@
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>$(SolutionDir)Engine;$(SolutionDir)Engine\Common;C:\Program Files\Autodesk\FBX\FBX SDK\2020.2\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\herre\OneDrive\Desktop\Illusion\Extras\FBX_IMPORT_EXPORT\2020.3.4\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

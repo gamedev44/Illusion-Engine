@@ -8,13 +8,13 @@
 // 2) the include path to fbxsdk.h is added to "Additional Include Directories" (compiler settings)
 // 3) the library paths in the following section point to the correct location
 #if _DEBUG
-#pragma comment (lib, "C:\\Program Files\\Autodesk\\FBX\\FBX SDK\\2020.2\\lib\\vs2019\\x64\\debug\\libfbxsdk-md.lib")
-#pragma comment (lib, "C:\\Program Files\\Autodesk\\FBX\\FBX SDK\\2020.2\\lib\\vs2019\\x64\\debug\\libxml2-md.lib")
-#pragma comment (lib, "C:\\Program Files\\Autodesk\\FBX\\FBX SDK\\2020.2\\lib\\vs2019\\x64\\debug\\zlib-md.lib")
+#pragma comment (lib, "C:\\Users\\herre\\OneDrive\\Desktop\\Illusion\\Extras\\FBX_IMPORT_EXPORT\\2020.3.4\\lib\\vs2022\\x64\debug\\libfbxsdk.dll")
+#pragma comment (lib, "C:\\Users\\herre\\OneDrive\\Desktop\\Illusion\Extras\\FBX_IMPORT_EXPORT\\2020.3.4\\lib\vs2022\\x64\\debug\\libxml2-md.lib")
+#pragma comment (lib, "C:\\Users\\herre\\OneDrive\\Desktop\\Illusion\\Extras\\FBX_IMPORT_EXPORT\\2020.3.4\\lib\\vs2022\\x64\\debug\\zlib-md.lib")
 #else
-#pragma comment (lib, "C:\\Program Files\\Autodesk\\FBX\\FBX SDK\\2020.2\\lib\\vs2019\\x64\\release\\libfbxsdk-md.lib")
-#pragma comment (lib, "C:\\Program Files\\Autodesk\\FBX\\FBX SDK\\2020.2\\lib\\vs2019\\x64\\release\\libxml2-md.lib")
-#pragma comment (lib, "C:\\Program Files\\Autodesk\\FBX\\FBX SDK\\2020.2\\lib\\vs2019\\x64\\release\\zlib-md.lib")
+#pragma comment (lib, "C:\\Users\\herre\\OneDrive\\Desktop\\Illusion\\Extras\\FBX_IMPORT_EXPORT\\2020.3.4\\lib\\vs2022\\x64\release\\libfbxsdk.dll")
+#pragma comment (lib, "C:\\Users\\herre\\OneDrive\\Desktop\\Illusion\Extras\\FBX_IMPORT_EXPORT\\2020.3.4\\lib\vs2022\\x64\\release\\libxml2-md.lib")
+#pragma comment (lib, "C:\\Users\\herre\\OneDrive\\Desktop\\Illusion\\Extras\\FBX_IMPORT_EXPORT\\2020.3.4\\lib\\vs2022\\x64\\release\\zlib-md.lib")
 #endif
 // LNK4099 PDB not found warnings can be resolved either by installing FBX SDK PDBs (separate download) or
 // by disabling this warning in linker options (Linker command line: /ignore:4099).
@@ -243,7 +243,7 @@ fbx_context::get_mesh_data(FbxMesh* fbx_mesh, mesh& m)
     {
         for (s32 i{ 0 }; i < num_polys; ++i)
         {
-            const s32 mtl_index{ mtl_indices->GetAt(i) };
+            const s32  mtl_index{ mtl_indices->GetAt(i) };
             assert(mtl_index >= 0);
             m.material_indices.emplace_back((u32)mtl_index);
             if (std::find(m.material_used.begin(), m.material_used.end(), (u32)mtl_index) == m.material_used.end())
