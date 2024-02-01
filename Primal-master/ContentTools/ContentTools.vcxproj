@@ -78,7 +78,9 @@
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>C:\Users\herre\OneDrive\Desktop\Illusion\Extras\FBX_IMPORT_EXPORT\2020.3.4\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Illusion\Extras\FBX_IMPORT_EXPORT\2020.3.4\include</AdditionalIncludeDirectories>
+      <AdditionalUsingDirectories>C:\Illusion\Illusion-Engine\Primal-master\Engine\Common\CommonHeaders.h</AdditionalUsingDirectories>
+      <AdditionalOptions>/ignore:C1083,C4100,E1696 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -99,7 +101,9 @@
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>C:\Users\herre\OneDrive\Desktop\Illusion\Extras\FBX_IMPORT_EXPORT\2020.3.4\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Illusion\Extras\FBX_IMPORT_EXPORT\2020.3.4\include</AdditionalIncludeDirectories>
+      <AdditionalUsingDirectories>C:\Illusion\Illusion-Engine\Primal-master\Engine\Common\CommonHeaders.h</AdditionalUsingDirectories>
+      <AdditionalOptions>/ignore:C1083,C4100,E1696 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
