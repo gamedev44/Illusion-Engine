@@ -100,6 +100,8 @@ At the moment we have the following features:
 
 ##-todo
 
+[for: hash-buoy] do as much as you can please its hard to do this on my own because of time limitations.  at least do step 1 please! and confirm its finished.
+
 step 1: Change All Reference Ocurrances of the Name Primal To illusion and all instances of PrimalEditor to IllusionEditor making sure when finished to-
 ,check for references once more before re-building.
 
@@ -115,8 +117,12 @@ step 5: Refine editor functionalities and mechanics like translate adding things
 step 6: Implement Model Importation
 
 step 7: Refine Open / Create Project UI to be more proffessional in design and functionality
+step 8: watch and follow along starting from here at episode 6 : https://youtube.com/playlist?list=PL85wXcWAp0HU5HIBHRuUWTLxB2UDDC1Fh&si=1Obtgjw0GnhhPhIy
 
-step 8: Add The necessary Voxel Octree Dependencies & Files Needed and there necessary- 
+step 9: implement this if you havent already https://github.com/TheGameEngineers/PrimalPlus via following the videos above in the guide before proeeding any further.
+
+
+step 10: Add The necessary Voxel Octree Dependencies & Files Needed and there necessary- 
 ,Inlcudes in the corrosponding c# and c++ files making sure to be able to be able to access the octree parameters within the scene via the xaml.cs-
 ,Additonally Make sure that when adding a button that can activate the Octree that you ensure to link the button from the xaml.cs to the engine.cpp via editing the .dll-
 
