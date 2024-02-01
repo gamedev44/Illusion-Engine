@@ -13,9 +13,8 @@
             <RowDefinition Height="32"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Button Content="Add Scene" Width="96" VerticalAlignment="Center" Focusable="False"
-                Grid.Row="0" HorizontalAlignment="Left" Margin="20,0,0,0"
-                Command="{Binding AddSceneCommand}"/>
+        <Button Content=" [+] Add " Width="50" VerticalAlignment="Top" Focusable="False" HorizontalAlignment="Center"
+                Command="{Binding AddSceneCommand}" Grid.Row="1"/>
         <ScrollViewer Grid.Row="1" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
             <ItemsControl ItemsSource="{Binding Scenes}">
                 <ItemsControl.ItemsPanel>
@@ -48,7 +47,7 @@
                                                 CommandParameter="{Binding}"/>
                                         </StackPanel>
                                     </DataTemplate>
-                                </ListBox.ItemTemplate> 
+                                </ListBox.ItemTemplate>
                             </ListBox>
                         </Expander>
                     </DataTemplate>
