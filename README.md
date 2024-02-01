@@ -98,7 +98,7 @@ At the moment we have the following features:
 
 
 
-##-todo
+## todo
 
 [for: hash-buoy] do as much as you can please its hard to do this on my own because of time limitations.  at least do step 1 please! and confirm its finished.
 
